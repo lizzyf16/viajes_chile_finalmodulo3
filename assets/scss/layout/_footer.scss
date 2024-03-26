@@ -1,0 +1,23 @@
+.footer{
+
+    &__container{
+        color: white;
+        font-size: $fs16;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__container-text{
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    &__container-author{
+        text-decoration: none;
+    }
+
+    &__container-author img{
+        width: 100%;
+        max-width: 100px;
+    }
+}

@@ -1,0 +1,21 @@
+.menu {
+    &__container-icon{
+        display: flex;
+        justify-content: center;
+        &:hover {
+            border-bottom: 2px solid $adl;
+            border-radius: 3px;
+        }
+    }
+    &__icon {
+        font-size: 85px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menu{
+        &__icon{
+            font-size: 60px;
+        }
+    }
+    
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer="" src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="/assets/vendors/bootstrap.bundle.js">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <nav class="container navbar navbar-expand-lg navbar-dark px-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/viajes.svg" alt="Viajes Chile" width="25px" />
+                <p class="logo-viajes">Viajes Chile</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="header" class="header">
+        <section class="header__container">
+            <div id="carouselHeader" class="carousel slide header__container-slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen-1" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Imagen-2" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Imagen-3" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="about-us" class="about container py-3">
+            <h2 class="text-center py-3">¿Quienes somos?</h2>
+            <hr>
+            <div class="row about__container">
+                <div class="col col-12 col-md-6 about__container-image d-none d-md-block">
+                    <img class="" src="./assets/img/viajes-con-tranquilidad.jpg" alt="¿Quienes somos?">
+                </div>
+                <div class="col col-12 col-md-6 about__container-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laudantium exercitationem
+                        molestias cupiditate officiis nulla unde illo, culpa laboriosam quo assumenda accusantium
+                        nesciunt? Vitae ex doloremque repudiandae, vero provident quibusdam!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius inventore necessitatibus,
+                        voluptatum modi quaerat blanditiis ullam facilis accusamus earum soluta sed assumenda animi
+                        eaque? Distinctio aspernatur temporibus numquam dolores natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laudantium exercitationem
+                        molestias cupiditate officiis nulla unde illo, culpa laboriosam quo assumenda accusantium
+                        nesciunt? Vitae ex doloremque repudiandae, vero provident quibusdam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laudantium exercitationem
+                        molestias cupiditate officiis nulla unde illo, culpa laboriosam quo assumenda accusantium
+                        nesciunt? Vitae ex doloremque repudiandae, vero provident quibusdam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="featured" class="featured container d-md-block my-4">
+            <h2 class="mb-4 text-center">Destacados</h2>
+            <hr>
+            <div class="row featured__container row-cols-1 row-cols-md-2 py-3">
+
+                <div class="col col-12 col-md-6 featured__container-card">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/card1.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Región de los Lagos</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tempora ducimus quod aspernatur veniam repellat.</p>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up px-2"></i>
+                                        <span class="card-text__p">
+                                            <small class="text-body-secondary">Vuelos desde:</small>
+                                        </span>
+                                        <span class="card-text__span ms-auto fw-semibold">$159.990</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 featured__container-card">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/card2.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Desierto de Atacama</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tempora ducimus quod aspernatur veniam repellat.</p>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up px-2"></i>
+                                        <span class="card-text__p">
+                                            <small class="text-body-secondary">Vuelos desde:</small>
+                                        </span>
+                                        <span class="card-text__span ms-auto fw-semibold">$189.990</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 featured__container-card">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/card3.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Norte grande de Chile</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tempora ducimus quod aspernatur veniam repellat.</p>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up px-2"></i>
+                                        <span class="card-text__p">
+                                            <small class="text-body-secondary">Vuelos desde:</small>
+                                        </span>
+                                        <span class="card-text__span ms-auto fw-semibold">$289.990</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 featured__container-card">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/card4.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bosque mágico</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Tempora ducimus quod aspernatur veniam repellat.</p>
+                                    <div class="card-footer py-3 d-flex align-items-center">
+                                        <i class="fa-solid fa-plane-up px-2"></i>
+                                        <span class="card-text__p">
+                                            <small class="text-body-secondary">Vuelos desde:</small>
+                                        </span>
+                                        <span class="card-text__span ms-auto fw-semibold">$259.990</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials container">
+            <h2 class="text-center py-3">Testimonios</h2>
+            <hr />
+            <div class="testimonials__container row text-center py-3">
+                <div class="col col-12 col-md-4 testimonials__container-item">
+                    <p class="testimonials__text">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Id sed facilis voluptates cupiditate, voluptatum perspiciatis eum possimus. Aspernatur,
+                        recusandae? Quos reiciendis neque assumenda illo hic blanditiis suscipit repellat officia nemo."
+                    </p>
+                    <img class="testimonials__image img-circle" src="./assets/img/avatar1.jpg">
+                    <span class="testimonials__author">Mary</span>
+                </div>
+                <div class="col col-12 col-md-4 testimonials__container-item">
+                    <p class="testimonials__text">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Id sed facilis voluptates cupiditate, voluptatum perspiciatis eum possimus. Aspernatur,
+                        recusandae? Quos reiciendis neque assumenda illo hic blanditiis suscipit repellat officia nemo."
+                    </p>
+                    <img class="testimonials__image" src="./assets/img/avatar2.jpg">
+                    <span class="testimonials__author">Jake</span>
+                </div>
+                <div class="col col-12 col-md-4 testimonials__container-item">
+                    <p class="testimonials__text">"Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Id sed facilis voluptates cupiditate, voluptatum perspiciatis eum possimus. Aspernatur,
+                        recusandae? Quos reiciendis neque assumenda illo hic blanditiis suscipit repellat officia nemo."
+                    </p>
+                    <img class="testimonials__image" src="./assets/img/avatar3.jpg">
+                    <span class="testimonials__author">Lorna</span>
+                </div>
+            </div>
+
+        </section>
+        <section id="contact" class="contact container py-4">
+            <h2 class="text-center py-4">Contacto</h2>
+            <hr>
+            <div class="contact__container row py-3">
+                <div class="contact__container-form col col-12 col-md-7 p-3">
+                    <form action="#">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre"
+                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                        data-bs-title="Haznos saber tu nombre para comunicarnos contigo">
+                                    <label for="inputName">Nombre</label>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        placeholder="nombre@dominio.com" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" data-bs-title="Ingresa tu email (ej: mail@dominio.com)">
+                                    <label for="inputEmail">Email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-md">
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Déjame un mensaje" id="inputMsg"
+                                        rows="10" style="height: 150px;" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom"
+                                        data-bs-title="Escribe tu mensaje y te contactaremos a la brevedad"></textarea>
+                                    <label for="inputMsg">Mensaje</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-md">
+
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault" data-bs-toggle="modal"
+                                    data-bs-target="#modalTerms">Acepto los términos y condiciones</label>
+                            </div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-md">
+                                <button type="button" id="sendForm" class="btn btn-light w-50 my-3 p-3"
+                                    data-bs-toggle="tooltip" data-bs-placement="right"
+                                    data-bs-title="Click para enviar el formulario">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact__container-list col col-12 col-md-5 p-3">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-square-phone"></i>
+                            <span>
+                                <a href="#header">948166631</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>
+                                <a href="#header">contacto@viajeschile.com</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <span>
+                                <a href="#header">@viajeschile</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <span>
+                                <a href="#header">Fb.com/Viajes-Chile</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                            <span>
+                                <a href="#header">@viajeschilecom</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+          </main>
+    <div class="modal fade" id="modalTerms" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content text-black">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Términos y condiciones</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex unde culpa eveniet sunt est eos ipsa
+                    molestiae quia reprehenderit at molestias dolores qui, ea, consequuntur, harum officiis alias.
+                    Veritatis, dolore.
+                    Reiciendis doloribus ea velit enim fuga non doloremque odio adipisci dolores, quisquam provident.
+                    Laboriosam recusandae obcaecati aspernatur? Eum fugiat excepturi sequi debitis rerum labore
+                    doloremque praesentium, quod saepe, non quasi.
+                    Nesciunt maiores ipsam aliquam vitae, possimus, soluta quas doloremque inventore esse beatae
+                    praesentium laborum similique asperiores perspiciatis non delectus ex minima rem, deleniti sint
+                    totam blanditiis aut iste enim. Iusto.
+                    At repellat commodi, dicta aliquam ipsa porro laudantium accusamus eveniet beatae a soluta corrupti
+                    reiciendis voluptatum molestiae magnam, maiores mollitia nostrum consectetur fuga nesciunt vero
+                    vitae quae rem. Doloribus, cupiditate?
+                    Aliquid veritatis ratione repudiandae, delectus harum molestiae debitis asperiores tempora,
+                    perferendis rerum officia qui porro, illo obcaecati aliquam earum ab cum aut. Molestias tempore
+                    consequuntur, tenetur repudiandae provident magni suscipit?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
